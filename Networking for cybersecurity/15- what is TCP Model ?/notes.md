@@ -1,4 +1,4 @@
-#  what is TCP model ?
+#  what is TCP/IP model ?
    TCP/IP Model is a network communication model that explains how data is transmitted from one computer to another over a network or the Internet.
 
   [*]   TCP/IP Model ek network communication model hai jo batata hai ki computer network mein data ek device se doosre device tak kaise travel karta hai.
