@@ -37,7 +37,6 @@ CIDR	       Subnet Mask      	Usable Hosts*
 
 
 
-.
 
 🧠 Easy Trick
 
