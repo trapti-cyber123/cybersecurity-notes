@@ -14,13 +14,7 @@
   Agar tum is network ko 4 smaller networks mein divide karna chahti ho, to subnetting ki help se divide kar sakti ho:
 
   192.168.1.0/24
-        ↓
-
-  ┌─────┼─────┬─────┐
-  ↓     ↓     ↓     ↓
- /26   /26   /26   /26
-
-   Yaani ek large network ko 4 smaller subnets mein divide kar diya.
+  
 
 
 🔹 Subnetting ki zarurat kyu hoti hai?
