@@ -36,8 +36,6 @@ CIDR	       Subnet Mask      	Usable Hosts*
 /28       	255.255.255.240      	14
 
 
-
-
 🧠 Easy Trick
 
 IP Address = Device ka address
