@@ -1,0 +1,52 @@
+# what is ping ?
+  Ping is a network utility/command used to check whether a computer, server, or network device is reachable over a network.
+
+[*]  Ping ek networking command hai jiska use ye check karne ke liye hota hai ki koi computer, server ya network device network par reachable hai ya nahi.
+
+🔹 Ping kaise kaam karta hai?
+
+Jab aap command likhte ho:
+
+ping google.com
+
+To computer:
+
+1. ICMP Echo Request bhejta hai → Google server ki taraf
+2. Server agar reachable hai → ICMP Echo Reply bhejta hai
+3. Computer response receive karta hai.
+
+Simple flow:
+
+Your PC → ICMP Echo Request → Server
+Your PC ← ICMP Echo Reply ← Server
+
+🔹 Ping se kya pata chalta hai?
+
+Ping se mainly:
+
+✅ Device reachable hai ya nahi
+⏱️ Response time / latency kitni hai
+❌ Packet loss ho raha hai ya nahi
+🌐 Basic network connectivity working hai ya nahi
+
+Example:
+
+Reply from 142.250.x.x: bytes=32 time=20ms TTL=117
+
+Yahan 20ms response time/latency ko show karta hai.
+
+🔹 Agar ping fail ho jaye?
+
+Example:
+
+Request timed out.
+
+Iska matlab ho sakta hai ki destination reachable nahi hai, network problem hai, ya ICMP traffic firewall se blocked hai. Ping fail hona hamesha ye prove nahi karta ki server down hai.
+
+🔹 Ping aur ICMP ka relation ⭐
+
+Ping = Command/utility
+ICMP = Protocol
+
+Ping commonly ICMP Echo Request aur ICMP Echo Reply messages ka use karta hai.
+
