@@ -37,6 +37,7 @@ Computer ← Echo Reply ← Server
 Isliye Ping command ICMP ka famous example hai.
 
 🔹 Important ICMP Messages
+
 ICMP Message                          	Meaning
 Echo Request                      	Ping request bhejna
 Echo Reply                        	Ping ka response
