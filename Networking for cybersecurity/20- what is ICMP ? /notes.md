@@ -39,10 +39,15 @@ Isliye Ping command ICMP ka famous example hai.
 🔹 Important ICMP Messages
 
 ICMP Message                          	Meaning
+
 Echo Request                      	Ping request bhejna
+
 Echo Reply                        	Ping ka response
+
 Destination Unreachable            	Destination tak packet nahi pahunch saka
+
 Time Exceeded	                      Packet ka TTL expire ho gaya
+
 Redirect                          	Better route ki information
 
 
