@@ -39,11 +39,11 @@ Computer recently learned IP + MAC mappings ko temporarily store karta hai. Isse
 
 Example:
 
-IP Address             	MAC Address
+IP Address                           	MAC Address
 
-192.168.1.20        	AA:BB:CC:DD:EE:FF
+192.168.1.20                      	AA:BB:CC:DD:EE:FF
 
-192.168.1.30	        11:22:33:44:55:66
+192.168.1.30	                      11:22:33:44:55:66
   
   
      
