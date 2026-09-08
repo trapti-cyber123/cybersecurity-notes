@@ -5,6 +5,9 @@
 [*] Hub ek networking device hai jo multiple computers/devices ko ek network mein connect karta hai. Ye OSI Model ki Physical Layer (Layer 1) par kaam karta hai.
 
 🔹 HUB kaise kaam karta hai?
+# diagram 
+
+<img width="1536" height="1024" alt="a74f414b-94d7-4463-a20e-c3920654175d" src="https://github.com/user-attachments/assets/96d5efbe-4e59-4b81-8e67-07940763fc1f" />
 
 Maan lo 4 computers Hub se connected hain:
 
