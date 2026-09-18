@@ -1,5 +1,5 @@
 #  7layers of OSI model in detail ?
-   🌐 Application Layer — Layer 7
+# Application Layer — Layer 7
 
 Application Layer OSI Model ki 7th aur sabse upper layer hai 
 
@@ -10,7 +10,7 @@ The Application Layer is the topmost layer of the OSI model. It provides network
     Jaise jab hum browser se website open karte hain, email bhejte hain ya FTP se file transfer karte hain, to Application Layer se related protocols ka use
     hota hai.
 
-📌 Main Functions
+# Main Functions
 1.Network services provide karna
    User applications ko network se connect karna.
 2.Web browsing
@@ -22,7 +22,7 @@ The Application Layer is the topmost layer of the OSI model. It provides network
 5.Name/Address services
   DNS domain name ko IP address mein resolve karta hai.
 
-🔑 Important Protocols
+# Important Protocols
 Protocol     	Use
 HTTP       	Web pages
 HTTPS      	Secure web communication
@@ -31,14 +31,14 @@ SMTP       	Email sending
 DNS       	Domain name → IP address
 DHCP      	Automatically IP configuration
 
-💡 Simple Example
+# Simple Example
 
   Aap browser mein type karte ho:
   www.google.com
    Browser ko website access karne ke liye HTTP/HTTPS jaise Application Layer protocols use hote hain
 
 
-🌐 Presentation Layer — Layer 6
+# Presentation Layer — Layer 6
 
 Presentation Layer OSI Model ki 6th layer hai.
 Iska main kaam data ko ek suitable format mein convert, encrypt/decrypt aur compress/decompress karna hai.
@@ -47,34 +47,26 @@ Iska main kaam data ko ek suitable format mein convert, encrypt/decrypt aur comp
 
 [*] Presentation Layer sender ke data ko aise format mein convert karti hai jise receiver ka system samajh sake. Ye data ki formatting, encryption aur compression bhi handle karti hai.
 
-📌 Main Functions
+# Main Functions
 
 1. Translation / Data Formatting
 Different systems ke data formats ko convert karti hai.
 
-👉 Example: Character encoding jaise ASCII/Unicode.
+ Example: Character encoding jaise ASCII/Unicode.
 
- 2. Encryption & Decryption 🔐
+ 2. Encryption & Decryption
+    
 Data ko secure karne ke liye encryption aur receiver side par decryption ki process hoti hai.
 
-👉 Example: Sensitive information ko readable form se encrypted form mein convert karna.
+ Example: Sensitive information ko readable form se encrypted form mein convert karna.
 
-3. Compression & Decompression 📦
-Data ka size reduce karti hai taaki data efficiently transfer ho sake.
- 💡 Easy Example
+3. Compression & Decompression
+   
+Data ka size reduce karti hai taaki data efficiently transfer ho sake. 
 
-Maan lo aap kisi ko ek image bhejte ho:
-
-Sender:
-Image → Format/Encode → Compress → Encrypt → Network
-
-Receiver:
-Network → Decrypt → Decompress → Decode → Image
-
-
-🌐 Session Layer — Layer 5
-
+# Session Layer — Layer 5
 Session Layer OSI Model ki 5th layer hai.
+
 Iska main kaam do devices/applications ke beech communication session ko establish, manage aur terminate karna hai.
 
 The Session Layer is the 5th layer of the OSI model. It establishes, manages, synchronizes, and terminates communication sessions between two devices 
@@ -82,17 +74,17 @@ or applications.
 
 [*]Session Layer do devices ya applications ke beech communication ka session start, maintain aur end karti hai.
 
-📌 Main Functions
+# Main Functions
 
 1. Session Establishment
 Communication session ko start karti hai.
 
-👉 Example: Do applications ke beech communication start hona.
+ Example: Do applications ke beech communication start hona.
 
 2. Session Management
 Communication ko maintain aur control karti hai.
 
-👉 Matlab session ke dauran communication ko properly manage karna.
+ Matlab session ke dauran communication ko properly manage karna.
 
 3. Session Termination
 Communication complete hone par session ko close/end karti hai.
@@ -100,10 +92,10 @@ Communication complete hone par session ko close/end karti hai.
 4. Synchronization
 Long data transfer mein checkpoints maintain karne mein help karti hai.
 
-👉 Agar transfer ke beech problem aa jaye, to communication ko suitable checkpoint se continue karna possible ho sakta hai.
+ Agar transfer ke beech problem aa jaye, to communication ko suitable checkpoint se continue karna possible ho sakta hai.
 
 
-🌐 Transport Layer — Layer 4
+# Transport Layer — Layer 4
 
 Transport Layer OSI Model ki 4th layer hai.
 Iska main kaam sender se receiver tak data ki end-to-end delivery karna hai.
@@ -114,30 +106,28 @@ applications running on different devices.
 [*] Transport Layer sender ke computer se receiver ke computer tak data ko properly deliver karne mein help karti hai. Ye data ko chhote parts mein divide
 karti hai aur communication ko manage karti hai.
 
-📌 Main Functions
+ Main Functions
 
-1. Segmentation 📦
-Large data ko chhote-chhote parts mein divide karti hai.
+1. Segmentation 
+    Large data ko chhote-chhote parts mein divide karti hai.
 
-Example:
+  Example: Large Data → Segment 1 + Segment 2 + Segment 3
 
-Large Data → Segment 1 + Segment 2 + Segment 3
+  Receiver side par ye segments dobara arrange kiye ja sakte hain.
 
-Receiver side par ye segments dobara arrange kiye ja sakte hain.
+2. End-to-End Delivery 
+    Data ko source application se destination application tak pahunchane mein help karti hai.
 
-2. End-to-End Delivery 🔄
-Data ko source application se destination application tak pahunchane mein help karti hai.
+3. Error Control    
+   Data delivery mein errors ya missing data ko detect/handle karne mein help karti hai, especially TCP mein.
 
-3. Error Control ❌
-Data delivery mein errors ya missing data ko detect/handle karne mein help karti hai, especially TCP mein.
+4. Flow Control 
+   Sender ki speed ko receiver ki capacity ke according manage karne mein help karti hai.
 
-4. Flow Control ⚖️
-Sender ki speed ko receiver ki capacity ke according manage karne mein help karti hai.
+    Agar sender bahut fast data bhej raha hai, to receiver overload na ho, isliye flow control important hai.
 
-👉 Agar sender bahut fast data bhej raha hai, to receiver overload na ho, isliye flow control important hai.
-
-5. Port Numbers 🔢
-Transport Layer port numbers ka use karke identify karti hai ki data kis application/service ke liye hai.
+5. Port Numbers 
+   Transport Layer port numbers ka use karke identify karti hai ki data kis application/service ke liye hai.
 
 Examples:
 
@@ -146,7 +136,7 @@ SSH → Port 22
 HTTP → Port 80
 HTTPS → Port 443
 
-🔥 Important Protocols
+ Important Protocols
 TCP — Transmission Control Protocol
 
 TCP reliable hai.
@@ -156,7 +146,7 @@ Acknowledgment use karta hai
 Lost data ko retransmit kar sakta hai
 Reliable delivery
 
-👉 Example: Important data transfer.
+ Example: Important data transfer.
 
 UDP — User Datagram Protocol
 
@@ -167,10 +157,10 @@ Faster
 Low overhead
 No delivery guarantee
 
-👉 Example: Live streaming, online gaming, DNS queries etc.
+ Example: Live streaming, online gaming, DNS queries etc.
 
 
-🌐 Network Layer — Layer 3
+# Network Layer — Layer 3
 
 Network Layer OSI Model ki 3rd layer hai.
 Iska main kaam IP addressing aur routing hai.
@@ -179,9 +169,9 @@ The Network Layer is the 3rd layer of the OSI model. It is responsible for logic
 
 [*]  Network Layer OSI Model ki 3rd layer hai. Ye data ko destination tak pahunchane ke liye IP address aur best route/path ka use karti hai.
 
-📌 Main Functions
+# Main Functions
 
-1. IP Addressing 📍
+1. IP Addressing 
 
 Network Layer devices ko IP address ke through identify karti hai.
 
@@ -191,7 +181,7 @@ Example:
 
 Yahan 192.168.1.10 ek IPv4 address hai.
 
-2. Routing 🛣️
+2. Routing 
 
 Routing ka matlab hai source se destination tak data ke liye suitable path select karna.
 
@@ -201,7 +191,7 @@ Computer A → Router → Router → Computer B
 
 Router decide karta hai ki packet ko kis direction mein bhejna hai.
 
-3. Packet Forwarding 📦
+3. Packet Forwarding 
 
 Network Layer mein data ko packets ke form mein handle kiya jata hai aur routers un packets ko next destination ki taraf forward karte hain.
 
@@ -209,25 +199,12 @@ Network Layer mein data ko packets ke form mein handle kiya jata hai aur routers
 
 MAC address ke alawa Network Layer logical address, mainly IP address, ka use karti hai.
 
-👉 IP = Logical Address
-👉 MAC = Physical/Data-Link Address
-
-💡 Simple Example
-
-Aapke computer ka IP:
-
-192.168.1.10
-
-Aur website/server ka IP:
-
-142.x.x.x
-
-Jab aap website open karte ho:
-
-Your Computer → Router → Internet → Destination Server
+   IP = Logical Address
+   MAC = Physical/Data-Link Address
 
 
-🌐 Data Link Layer — Layer 2
+
+# Data Link Layer — Layer 2
 
 Data Link Layer OSI Model ki 2nd layer hai.
 Iska main kaam directly connected devices ke beech data ko frames ke form mein reliably transfer karna hai.
@@ -236,9 +213,9 @@ The Data Link Layer is the 2nd layer of the OSI model. It provides node-to-node 
 
 [*]  Data Link Layer OSI Model ki 2nd layer hai. Ye ek network mein directly connected devices ke beech data transfer karne mein help karti hai. Is layer par data ko Frame kaha jata hai aur MAC Address ka use hota hai.
 
-📌 Main Functions
+# Main Functions
 
-1. Framing 📦
+1. Framing 
 
 Network Layer se aaye packet ko Data Link Layer Frame mein convert karti hai.
 
@@ -246,7 +223,7 @@ Packet → Frame
 
 Receiver side par frame se data ko aage process kiya jata hai.
 
-2. MAC Address 🔢
+2. MAC Address 
 
 Data Link Layer MAC address ka use karti hai.
 
@@ -254,15 +231,15 @@ Example:
 
 00:1A:2B:3C:4D:5E
 
-👉 MAC Address = Hardware/Physical address
+ MAC Address = Hardware/Physical address
 
-3. Error Detection ❌
+3. Error Detection 
 
 Data transfer ke dauran error detect karne mein help karti hai.
 
-👉 Example: CRC (Cyclic Redundancy Check)
+ Example: CRC (Cyclic Redundancy Check)
 
-4. Node-to-Node Delivery 🔄
+4. Node-to-Node Delivery 
 
 Ye ek device/node se next directly connected node tak data delivery provide karti hai.
 
@@ -271,7 +248,7 @@ Ye ek device/node se next directly connected node tak data delivery provide kart
 Agar multiple devices ek hi communication medium use kar rahe hain, to ye decide karne mein help karti hai
 ki medium ko kab access karna hai.
 
-🏗️ Data Link Layer ke 2 Sub-layers
+ Data Link Layer ke 2 Sub-layers
 
 Data Link Layer ko generally do parts mein divide kiya jata hai:
 
@@ -281,19 +258,7 @@ Communication aur error/flow-related control functions provide karta hai.
 2. MAC — Media Access Control
 MAC addressing aur shared medium access se related functions handle karta hai.
 
-💡 Simple Example
-
-Maan lo:
-
-PC A → Switch → PC B
-
-PC A data bhejta hai:
-
-Data → Packet → Frame
-
-Frame mein source aur destination MAC addresses hoti hain.
-
-Switch → Destination MAC ko check karta hai → Frame ko PC B ki taraf forward karta hai.
+ 
 
 
 🌐 Physical Layer — Layer 1
