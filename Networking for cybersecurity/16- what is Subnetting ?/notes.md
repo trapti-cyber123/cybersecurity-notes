@@ -3,7 +3,7 @@
 
 [*]  Subnetting ek process hai jisme ek bade IP network ko chhote-chhote logical networks mein divide kiya jata hai, jinhe Subnets kehte hain.
 
-🧠 Simple Example
+ # Example
 
   Maan lo tumhare paas ek bada network hai:
 
@@ -16,8 +16,7 @@
   192.168.1.0/24
   
 
-
-🔹 Subnetting ki zarurat kyu hoti hai?
+# Subnetting ki zarurat kyu hoti hai?
 1. Network ko divide karna
 
  It divides a large network into smaller networks.
@@ -42,7 +41,7 @@ It helps use IP addresses more efficiently.
  
  [*] Different departments ko alag-alag subnet mein rakha ja sakta hai, jisse network management aur segmentation better hoti hai.
 
-🔹 Important Terms
+# Important Terms
 
 .IP Address
 
@@ -64,11 +63,11 @@ Example:
 
 Subnet ko /24, /25, /26 jaise notation mein represent karta hai.
 
-Example: 
-      192.168.1.0/24
+Example:
+
+   192.168.1.0/24
 
 
 
-192.168.1.0/24
 
-🔹 Important Terms
+
