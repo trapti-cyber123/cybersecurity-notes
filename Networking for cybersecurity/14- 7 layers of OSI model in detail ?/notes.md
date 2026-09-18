@@ -12,14 +12,23 @@ The Application Layer is the topmost layer of the OSI model. It provides network
 
 # Main Functions
 1.Network services provide karna
+
    User applications ko network se connect karna.
+   
 2.Web browsing
+
   HTTP/HTTPS ke through websites access karna.
+  
 3.Email communication
+
   SMTP jaise protocols email communication mein use hote hain.
+  
 4.File transfer
+
    FTP jaise protocols files transfer karne mein help karte hain.
+   
 5.Name/Address services
+
   DNS domain name ko IP address mein resolve karta hai.
 
 # Important Protocols
@@ -30,12 +39,6 @@ FTP       	File transfer
 SMTP       	Email sending
 DNS       	Domain name → IP address
 DHCP      	Automatically IP configuration
-
-# Simple Example
-
-  Aap browser mein type karte ho:
-  www.google.com
-   Browser ko website access karne ke liye HTTP/HTTPS jaise Application Layer protocols use hote hain
 
 
 # Presentation Layer — Layer 6
@@ -50,19 +53,19 @@ Iska main kaam data ko ek suitable format mein convert, encrypt/decrypt aur comp
 # Main Functions
 
 1. Translation / Data Formatting
-Different systems ke data formats ko convert karti hai.
+      Different systems ke data formats ko convert karti hai.
 
- Example: Character encoding jaise ASCII/Unicode.
+    Example: Character encoding jaise ASCII/Unicode.
 
  2. Encryption & Decryption
     
-Data ko secure karne ke liye encryption aur receiver side par decryption ki process hoti hai.
+   Data ko secure karne ke liye encryption aur receiver side par decryption ki process hoti hai.
 
  Example: Sensitive information ko readable form se encrypted form mein convert karna.
 
 3. Compression & Decompression
    
-Data ka size reduce karti hai taaki data efficiently transfer ho sake. 
+    Data ka size reduce karti hai taaki data efficiently transfer ho sake. 
 
 # Session Layer — Layer 5
 Session Layer OSI Model ki 5th layer hai.
@@ -77,22 +80,22 @@ or applications.
 # Main Functions
 
 1. Session Establishment
-Communication session ko start karti hai.
+    Communication session ko start karti hai.
 
- Example: Do applications ke beech communication start hona.
+   Example: Do applications ke beech communication start hona.
 
 2. Session Management
-Communication ko maintain aur control karti hai.
+   Communication ko maintain aur control karti hai.
 
- Matlab session ke dauran communication ko properly manage karna.
+   Matlab session ke dauran communication ko properly manage karna.
 
 3. Session Termination
-Communication complete hone par session ko close/end karti hai.
+   Communication complete hone par session ko close/end karti hai.
 
 4. Synchronization
-Long data transfer mein checkpoints maintain karne mein help karti hai.
+   Long data transfer mein checkpoints maintain karne mein help karti hai.
 
- Agar transfer ke beech problem aa jaye, to communication ko suitable checkpoint se continue karna possible ho sakta hai.
+    Agar transfer ke beech problem aa jaye, to communication ko suitable checkpoint se continue karna possible ho sakta hai.
 
 
 # Transport Layer — Layer 4
@@ -108,25 +111,30 @@ karti hai aur communication ko manage karti hai.
 
  Main Functions
 
-1. Segmentation 
+1. Segmentation
+
     Large data ko chhote-chhote parts mein divide karti hai.
 
   Example: Large Data → Segment 1 + Segment 2 + Segment 3
 
   Receiver side par ye segments dobara arrange kiye ja sakte hain.
 
-2. End-to-End Delivery 
+2. End-to-End Delivery
+   
     Data ko source application se destination application tak pahunchane mein help karti hai.
 
-3. Error Control    
+4. Error Control
+   
    Data delivery mein errors ya missing data ko detect/handle karne mein help karti hai, especially TCP mein.
 
-4. Flow Control 
+6. Flow Control
+   
    Sender ki speed ko receiver ki capacity ke according manage karne mein help karti hai.
 
     Agar sender bahut fast data bhej raha hai, to receiver overload na ho, isliye flow control important hai.
 
-5. Port Numbers 
+8. Port Numbers
+   
    Transport Layer port numbers ka use karke identify karti hai ki data kis application/service ke liye hai.
 
 Examples:
@@ -261,7 +269,7 @@ MAC addressing aur shared medium access se related functions handle karta hai.
  
 
 
-🌐 Physical Layer — Layer 1
+# Physical Layer — Layer 1
 
 Physical Layer OSI Model ki 1st aur sabse neeche wali layer hai.
 
@@ -269,9 +277,9 @@ The Physical Layer is the 1st layer of the OSI model. It is responsible for tran
 
 [*]  Physical Layer OSI Model ki 1st aur lowest layer hai. Ye data ko 0 aur 1 (bits) ke form mein physical medium ke through transmit karti hai.
 
-📌 Main Functions
+# Main Functions
 
-1. Transmission of Bits 🔢
+1. Transmission of Bits 
 
 Data ko 0s and 1s ke form mein transmit karti hai.
 
@@ -281,21 +289,23 @@ Example:
 
 Ye bits electrical, optical ya wireless signals mein represent ho sakti hain.
 
-2. Physical Media 🖧
+2. Physical Media 
 
 Ye decide/define karti hai ki data kis physical medium se travel karega.
 
 Examples:
 
 🔌 Ethernet cable
+
 💡 Fiber optic cable
+
 📡 Wireless/RF signals
 
-3. Data Rate ⚡
+3. Data Rate 
 
 Data kitni speed se transmit hoga, jaise Mbps ya Gbps, physical transmission se related hota hai.
 
-4. Signals 📶
+4. Signals 
 
 Bits ko appropriate electrical, optical ya radio signals ke form mein transmit kiya jata hai.
 
@@ -309,17 +319,7 @@ Cables
 Connectors
 Antennas
 
-💡 Simple Example
-
-Aap computer se doosre computer ko data bhejte ho:
-
-Data → Packet → Frame → Bits
-
-Physical Layer mein:
-
-Bits (0 & 1) → Signals → Cable/Wireless → Receiver
-
-Receiver side par signals ko dobara bits mein interpret kiya jata 
+ 
 
 
 
