@@ -3,14 +3,18 @@
 
 [*]  UDP (User Datagram Protocol) ek Transport Layer protocol hai jo bina connection establish kiye network par fast data transmission karta hai.
 
-🔹 UDP kaise kaam karta hai?
+# UDP kaise kaam karta hai?
 
 TCP mein pehle connection establish hota hai, lekin UDP mein aisa nahi hota.
 
 Sender                    Receiver
+
   │                          │
+  
   │──── Data Packet ────────>│
+  
   │──── Data Packet ────────>│
+  
   │──── Data Packet ────────>│
 
 UDP directly data packets bhej deta hai.
@@ -18,7 +22,8 @@ UDP directly data packets bhej deta hai.
 👉 Receiver ko har packet ke liye acknowledgement (ACK) nahi bhejna padta.
 
 
-🔹 UDP ki Important Features
+# UDP ki Important Features
+
 1️⃣ Connectionless
 
 UDP does not establish a connection before sending data.
@@ -56,18 +61,23 @@ UDP generally does not retransmit lost packets.
 
 [*]   Agar UDP ka koi packet lost ho jaye, UDP normally us packet ko dobara send nahi karta.
 
-🔹 UDP ka use kahan hota hai?
+# UDP ka use kahan hota hai?
       
   UDP un situations mein useful hai jahan speed aur low delay important hota hai.
 
 Examples:
 
 🌐 DNS queries
+
 🎮 Online gaming
+
 📹 Live streaming
+
 📞 Voice/Video communication
+
 📡 DHCP
-🔹 UDP Port Numbers
+
+# UDP Port Numbers
 
 UDP bhi port numbers ka use karta hai.
 
@@ -78,29 +88,9 @@ DHCP Server → Port 67
 DHCP Client → Port 68
 
 
-⚔️ TCP vs UDP
-TCP                                     	UDP
-Connection-oriented                	Connectionless
-Reliable delivery                 	No guaranteed delivery
-Ordered delivery                  	No guaranteed ordering
-Retransmission possible            	No TCP-style retransmission
-More overhead                      	Less overhead
-Generally slower                  	Generally faster
-Example: HTTPS, FTP, SSH          	Example: DNS, DHCP, gaming
-
-
-🧠 Easy Trick
+# Easy Trick
 
 TCP = Reliable 📦
 UDP = Fast 🚀
 
-Socho:
 
-TCP: “Pehle connection banao, data check karo, confirmation lo.”
-UDP: “Data bhejo aur jaldi aage badho.” 😄
-
-
-
-Hindi:
-
-UDP ek connectionless Transport Layer protocol hai jo low overhead ke saath fast communication provide karta hai, lekin reliable aur ordered delivery ki guarantee nahi deta.
