@@ -62,3 +62,70 @@ Chooses Best Route
 
 . Home routers often NAT, DHCP aur basic firewall bhi provide karte hain.
 
+
+# types of router 
+
+Router ko mainly routing method aur use ke basis par different types mein divide kiya jaata hai.
+
+# Static Router
+
+[*]  Isme network administrator manually routing paths configure karta hai.
+
+  A static router uses manually configured routes.
+
+Example: Small network jahan routes rarely change hote hain.
+
+# Dynamic Router
+
+[*] Ye routing protocols ki help se automatically best route find aur update karta hai.
+
+ A dynamic router automatically learns and updates routes using routing protocols.
+
+Examples: RIP, OSPF, EIGRP, BGP.
+
+# Wired Router
+
+[*]  Ye devices ko Ethernet cables ke through connect karta hai.
+
+   A wired router connects devices using network cables.
+
+PC ───┐
+
+PC ───┼── [Wired Router] ── Internet
+
+PC ───┘
+ 
+   # Wireless Router
+
+[*]  Ye Wi-Fi ke through devices ko network/Internet se connect karta hai.
+
+ A wireless router provides network connectivity using Wi-Fi.
+
+ Phone )))
+ 
+ Laptop ))) [Wi-Fi Router] ── Internet
+ 
+ Tablet )))
+ 
+# Core Router
+
+[*] Ye large networks ke central/backbone part mein high-speed data forwarding karta hai.
+
+   A core router handles high-speed traffic in the backbone of large networks.
+
+# Edge Router
+
+[*] Ye organization ke internal network aur external network/Internet ke boundary par kaam karta hai.
+
+   An edge router operates at the boundary between an internal network and an external network.
+
+# Virtual Router
+
+[*] Ye physical device ke bajay software/virtual environment mein router ka kaam karta hai.
+
+   A virtual router performs routing functions through software rather than requiring a dedicated physical router.
+
+
+
+
+
