@@ -3,22 +3,29 @@
 
 [*] TCP (Transmission Control Protocol) ek Transport Layer protocol hai jo do devices ke beech data ko reliably aur correct order mein deliver karne ka kaam karta hai.
 
-🔹 TCP kaise kaam karta hai?
+# TCP kaise kaam karta hai?
 
 Maan lo tumhare computer se kisi server ko data bhejna hai.
 
 Computer A                    Server B
+
     │                            │
+    
     │──── Connection Setup ─────>│
+    
     │                            │
+    
     │──── Data ─────────────────>│
+    
     │<─── Acknowledgement ───────│
+    
     │──── More Data ─────────────>│
+    
     │                            │
 
 TCP pehle connection establish karta hai, phir data transfer karta hai aur receiver se ACK (Acknowledgement) lekar confirm karta hai ki data receive hua.
 
-🔹 TCP ki important features 
+# TCP ki important features 
 
 1. Connection-Oriented
 
@@ -64,15 +71,19 @@ TCP uses mechanisms such as checksums and acknowledgements to detect transmissio
 
 [*]  TCP sender se aane wale data ko control karta hai taaki receiver par too much data ka load na ho.
 
-🔹 TCP ka use kahan hota hai?
+# TCP ka use kahan hota hai?
 
 TCP ka use un applications mein hota hai jahan reliable communication important hai.
 
 Examples:
 
 🌐 HTTP/HTTPS → Web communication
+
 📁 FTP → File transfer
+
 📧 SMTP → Email sending
+
 🔐 SSH → Secure remote communication
+
 🔹 TCP vs UDP
 
